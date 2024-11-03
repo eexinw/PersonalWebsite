@@ -1,0 +1,108 @@
+baseurl      = "https://eexinwrites.com"
+title        = "Essays"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+pagination.pagerSize = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+  # Subtitle for home
+  homeSubtitle = "A collection of essays and fun projects"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = false
+  
+  # Show a global language switcher in the navigation bar
+  enableGlobalLanguageMenu = false
+  enableThemeToggle = true
+
+  # Metadata mostly used in document's head
+  description = "Eexinwrites"
+  keywords = "homepage, blog"
+  images = [""]
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Eexinwrites"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+  [languages.en.params]
+    subtitle  = "A simple theme for Hugo"
+
+    [languages.en.params.logo]
+      logoText = "hello world"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"    
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "Projects"
+    name       = "Projects"
+    url        = "/projects"
+    weight     = 90
+
+  [[menu.main]]
+    identifier = "essays"
+    name       = "Essays"
+    url        = "/essays"
+    weight     = 100
+  
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+    weight     = 80
+ 
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[[params.social]]
+    name = "email"
+    url  = "mailto:eexin91@gmail.com"
+
+[[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/ee-xin-wong/"
+
+  [params.footer]
+    trademark = 2024
+
+    bottomText = [
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+      "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+    ]
+
+  # Colors for favicons
+  #
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"

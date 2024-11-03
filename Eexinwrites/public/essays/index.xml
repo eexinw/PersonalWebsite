@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Essays on Eexinwrites</title>
+    <link>http://localhost:1313/essays/</link>
+    <description>Recent content in Essays on Eexinwrites</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 10 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/essays/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On leadership</title>
+      <link>http://localhost:1313/essays/leadership/</link>
+      <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/essays/leadership/</guid>
+      <description>&lt;p&gt;The first time I heard the call of leadership duty was when I was explaining the context and motivations behind a huge tedious regulatory project and halfway through, I realized that people were listening. Not with the usual glazed eyes and the non-committal “I heard you” nods but with the intense gaze of a team who was hungry and ready to rally behind a flag I did not know I possessed. It was more an honest plea rather than a war cry on my part - I sensed that the team was tired, we had a momentous task at hand and I gathered the words to try to make sense of it for them, as I would have done for myself.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My first essay</title>
+      <link>http://localhost:1313/essays/my-first-post/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/essays/my-first-post/</guid>
+      <description>&lt;p&gt;Hugo is the &lt;strong&gt;world’s fastest framework for building websites&lt;/strong&gt;. It is written in Go.&lt;/p&gt;&#xA;&lt;p&gt;It makes use of a variety of open source projects including:&#xA;hello hello&lt;/p&gt;&#xA;&lt;p&gt;#Awesome&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
